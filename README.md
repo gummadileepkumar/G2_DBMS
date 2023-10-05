@@ -1,4 +1,4 @@
-# G2_DBMS
+
 # EXP NO 1: DATA DEFINITION LANGUGE COMMANDS IN RDBMS
 
 ## AIM:
@@ -27,7 +27,8 @@ RENAME: This is used to rename an object existing in the database.
 create table STUDENT(S_Roll_no int,S_Name char(20),S_Age int,S_Address char(30),S_Phone_no int);
 ```
 ### OUTPUT:
-![Screenshot (136)](https://github.com/Gchethankumar/G2_DBMS/assets/118348224/3622d88a-2221-403f-b1df-a4e33a8ce8bb)
+![dbms_1 1](https://github.com/gummadileepkumar/G2_DBMS/assets/118707761/e3041b75-d302-4659-af6e-5dfa3c0669d8)
+
 
 ### 2) Change the above student table by adding another attribute department
 
@@ -36,7 +37,8 @@ create table STUDENT(S_Roll_no int,S_Name char(20),S_Age int,S_Address char(30),
 alter table STUDENT add S_Dept char(10);
 ```
 ### OUTPUT:
-![Screenshot (137)](https://github.com/Gchethankumar/G2_DBMS/assets/118348224/4696ef1e-8c54-4929-99bc-c2e553e8a241)
+
+![dbms_1 2](https://github.com/gummadileepkumar/G2_DBMS/assets/118707761/d8760374-0775-43b7-880b-af2fad95cb3e)
 
 
 ### 3) Drop the student table
@@ -46,7 +48,8 @@ alter table STUDENT add S_Dept char(10);
  drop table STUDENT;
 ```
 ### OUTPUT:
-![Screenshot (138)](https://github.com/Gchethankumar/G2_DBMS/assets/118348224/7d1c8734-8fc1-4400-9fad-dbeadaec0bed)
+
+![dbms_1 3](https://github.com/gummadileepkumar/G2_DBMS/assets/118707761/831026d4-4ef0-4bfd-a9be-89fafd0eb67d)
 
 
 ### 4) Delete the student table using truncate keyword
@@ -56,7 +59,8 @@ alter table STUDENT add S_Dept char(10);
  truncate table STUDENT;
 ```
 ### OUTPUT:
-![Screenshot (139)](https://github.com/Gchethankumar/G2_DBMS/assets/118348224/3584996e-1358-45fa-883a-fefac09e559e)
+
+![dbms_1 4](https://github.com/gummadileepkumar/G2_DBMS/assets/118707761/0836d18c-7113-4f87-89fb-1215c9d61e8c)
 
 
 
@@ -67,7 +71,8 @@ alter table STUDENT add S_Dept char(10);
 rename table STUDENT to MYSTUDENT;
 ```
 ### OUTPUT:
-![Screenshot (140)](https://github.com/Gchethankumar/G2_DBMS/assets/118348224/cc72bfa1-c9e7-4200-ade9-b7a72f95a035)
+![dbms_1 5](https://github.com/gummadileepkumar/G2_DBMS/assets/118707761/0f0424b6-b54d-4743-8c05-74c3835be352)
+
 
 ### RESULT:
 Thus, a student database and execute DDL queries is successfully created using SQL;
